@@ -1,0 +1,15 @@
+title: YashiTea
+description: Phoenix Dan Cong Tea Culture - Stories, guides, and traditions from Chaozhou
+url: https://keikiqiu.github.io/yashitea
+baseurl: /yashitea
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "YashiTea"
